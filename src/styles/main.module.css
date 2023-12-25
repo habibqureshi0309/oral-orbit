@@ -1,0 +1,335 @@
+@font-face {
+    font-family: champ;
+    src: url('../../public/fonts/Champ-Black.woff');
+}
+
+@font-face {
+    font-family: gelion;
+    src: url('../../public/fonts/Gelion\ Regular.woff');
+}
+
+.firstWelcomeScreenText {
+    width: 350px;
+    margin-top: 30px;
+}
+
+.positionRelative {
+    position: relative !important;
+}
+
+.initializingScreen {
+    background-color: #FFCA05;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgSecondaryColor {
+    background-color: #FF86FF !important;
+}
+
+.bgDbWelcomeScreen {
+    background-color: #FE0;
+}
+
+.bgDbWelcomeScreenOne {
+    background-color: #EBD7FF;
+}
+
+.bgDbWelcomeScreenTwo {
+    background-color: #CFDBFA;
+}
+
+.bgFourthScreen {
+    background-color: #7C68AE;
+}
+
+.bgLight {
+    background-color: #FFFFFF;
+}
+
+.aboutHeader {
+    background-color: #F4D3E0;
+    padding: 25px 80px 25px 80px;
+    border-radius: 0 0 15px 15px;
+}
+
+.addMoreIcon {
+    position: unset !important;
+    height: 20px !important;
+    width: 20px !important;
+    background-color: #374957;
+    border-radius: 50%;
+}
+
+.firstField, .secondField, .thirdField, .fourthField {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    height: 33px;
+    width: 90%;
+    padding: 5px 15px;
+    box-shadow: -10px -10px 20px 0px #FFF inset, 10px 5px 21px 0px rgba(170, 170, 204, 0.20) inset;
+}
+
+.firstField:focus, .secondField:focus, .thirdField:focus, .fourthField:focus {
+    outline: none !important;
+}
+
+.aboutHeader div:first-child{
+    text-align: right;
+}
+
+.bgFifthScreen {
+    background-color: #55C5D7;
+}
+
+.bgPrimaryColor {
+    background-color: #FFCA05;
+}
+
+.bgThirdScreen {
+    background-color: #455CA9;
+}
+
+.secondWelcomeScreenTitle {
+    color: #7C68AE;
+}
+
+.welcomeScreenTitle {
+    font-family: champ !important;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.firstWelcomeScreenTitle {
+    color: #FFF;
+}
+
+.firstWelcomeScreenMain {
+    display: flex;
+    align-items: baseline;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.secondaryTitle {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: champ;
+}
+
+.textCenter {
+    text-align: center !important;
+}
+
+.marginAuto {
+    margin: auto !important;
+}
+
+.justifyContentCenter {
+    justify-content: center !important;
+}
+
+.displayFlex {
+    display: flex !important;
+}
+
+.firstFieldSec {
+    width: 30%;
+}
+
+.secondFieldSec {
+    width: 50%;
+}
+
+.w80 {
+    width: 80% !important;
+}
+
+.w40 {
+    width: 40% !important;
+}
+
+.w60 {
+    width: 60% !important;
+}
+
+.thirdFieldSec {
+    width: 70%;
+}
+
+.fourthFieldSec {
+    width: 100%;
+}
+
+.socialIcons {
+    position: unset !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.displayBlock {
+    display: block !important;
+}
+
+.text {
+    font-size: 20px;
+    font-family: gelion;
+    line-height: 22px;
+}
+
+.image {
+    position: unset !important;
+}
+
+.signupLogo {
+    height: 40px !important;
+    width: 150px !important;
+}
+
+.accounts div {
+    padding: 30px;
+    border-radius: 20px;
+    background: #56C7DA;
+    box-shadow: 2px 4px 19px 0px rgba(0, 0, 0, 0.16);
+}
+
+.initializingLogo {
+    width: 10% !important;
+    height: 10% !important;
+}
+
+.footerLogo {
+    width: 148px !important;
+    height: 25px !important;
+    object-fit: cover;
+    margin: auto !important;
+}
+
+.profilePage{
+    position: relative;
+    z-index: 9999;
+    margin: 20px 80px 0 80px;
+}
+
+.profilePicture {
+    position: unset !important;
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.firstScreenfooterLogo {
+    width: 184px !important;
+    height: 58px !important;
+    object-fit: cover;
+    top: unset !important;
+    left: 42% !important;
+    bottom: 20px !important;
+}
+
+.appFooter {
+    position: absolute;
+    bottom: 30px !important;
+    left: 38% !important;
+    width: auto !important;
+}
+
+.signupFooter {
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    background-color: #56C7DA;
+    border-radius: 30px 30px 0 0;
+}
+
+.ml10 {
+    margin-left: 10px !important;
+}
+
+.ml20 {
+    margin-left: 20px !important;
+}
+
+.ml30 {
+    margin-left: 30px !important;
+}
+
+.filePreviewStyle {
+    max-width: 30px !important;
+    position: unset !important;
+    max-height: 30px !important;
+}
+
+.mt70 {
+    margin-top: 70px !important;
+}
+
+.mt60 {
+    margin-top: 60px !important;
+}
+
+.mt50 {
+    margin-top: 50px !important;
+}
+
+.mt40 {
+    margin-top: 40px !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.mt15 {
+    margin-top: 15px !important;
+}
+
+.mt30 {
+    margin-top: 30px !important;
+}
+
+.mb20 {
+    margin-bottom: 20px !important;
+}
+
+.primaryBtn {
+    background-color: #7C68AE;
+    width: 300px;
+    padding: 10px 0;
+    margin-top: 70px;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.formField {
+    margin: auto;
+    width: 300px;
+    position: relative;
+}
+
+.inputField {
+    width: 100%;
+    border-radius: 20px;
+    height: 38px;
+    padding: 5px 10px 5px 44px;
+}
+
+.inputField:focus {
+    outline: none;
+}
+
+.inputIcon {
+    height: 20px !important;
+    width: 20px !important;
+    left: 12px !important;
+    top: 9px !important;
+}
